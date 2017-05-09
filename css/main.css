@@ -1,6 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
+ /*@import url("../css/fonts/css/font-awesome.css");*/
  header{
    position: fixed;
    top: 0;
@@ -13,24 +14,36 @@
    height: 100px;
    align-items: center;
  }
-.nav-right{
+ .nav-container a {
+   color: #fff;
+   text-decoration: none;
+ }
+.nav-right {
   width: 30%;
   justify-content: space-around;
 }
-.nav-left{
+.nav-left {
   width: 70%;
   justify-content: space-around;
 }
-.wrap {
-  flex-wrap: wrap;
-}
-.nav-container a {
-  color: #fff;
-  text-decoration: none;
-}
+
 nav div:nth-child(1) a{
-  font-size: 2rem;
+  font-size: 28px;
 }
 #start{
   background: #18bc9c;
+  justify-content: center;
+  align-items: center;
+  height: 645px;
+  text-align: center;
+}
+
+.text-presentation {
+  font-size: 67px;
+  line-height: 73px;
+}
+.sz-25px {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 300;
 }

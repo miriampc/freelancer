@@ -6,6 +6,7 @@
    margin: 0;
    padding: 0;
    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   color: #fff;
  }
  .container {
    display: flex;
@@ -16,3 +17,14 @@
  .column {
    flex-direction: column;
  }
+ .wrap {
+   flex-wrap: wrap;
+ }
+.bold {
+  font-weight: bold;
+}
+.fa-star {
+  max-width: 250px;
+  border-top: 5px solid;
+  margin: 25px auto 30px;
+}
