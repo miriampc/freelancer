@@ -45,6 +45,11 @@ nav div:nth-child(1) a{
   padding: 7% 0;
 }
 
+#contact{
+  align-content: center;
+  justify-content: center;
+}
+
 .text-presentation p:first-child {
   font-size: 67px;
   line-height: 73px;
@@ -76,7 +81,8 @@ hr {
 
 /*Portfolio*/
 #portfolio span,
-#about span {
+#about span,
+#contact span {
   text-align: center;
   font-size: 42px;
   line-height: 46px;
