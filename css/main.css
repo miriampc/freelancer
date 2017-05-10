@@ -40,7 +40,6 @@ nav div:nth-child(1) a{
 }
 
 #about {
-  /*text-align: center;*/
   align-items: center;
   padding: 7% 0;
 }
@@ -123,4 +122,47 @@ hr {
 }
 .btn-download:hover{
   color: #18bc9c;
+}
+
+/*CONTACT*/
+.form-submit {
+  align-items: center;
+}
+.form-submit div{
+  border-top: 1px solid #eee;
+  padding: 1.5em 0;
+  position: relative;
+  width: 60%;
+  text-align: center;
+}
+.form-submit div:nth-child(4){
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.form-data label {
+  /*display: none;*/
+  color: #333;
+  position: absolute;
+  top: 0;
+  font-size: .85em;
+}
+
+.form-data input, textarea{
+  font-size: 21px;
+  line-height: 30px;
+  color: #555;
+  width: 96%;
+  border: 0;
+  outline-style: none;
+}
+.form-data textarea {
+  height: 200px;
+}
+.form-submit button {
+  padding: 10px 20px;
+  line-height: 24px;
+  font-size: 18px;
+  font-family: Lato;
+  border: none;
+  border-radius: 5px;
 }
