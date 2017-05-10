@@ -46,7 +46,12 @@ nav div:nth-child(1) a{
 
 #contact{
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 7% 0;
+}
+
+footer {
+  background: #233140;
 }
 
 .text-presentation p:first-child {
@@ -165,4 +170,83 @@ hr {
   font-family: Lato;
   border: none;
   border-radius: 5px;
+}
+
+/*FOOTER*/
+.footer-first-section {
+  background: #2c3e50;
+  width: 100%;
+  padding: 0 10%;
+  /*justify-content: space-around;*/
+  /*align-content: space-around;*/
+}
+.footer-first-section div {
+  width: 33.33333%;
+  padding: 5% 0;
+}
+
+.item {
+  text-align: center;
+}
+.item > span {
+  font-size: 24px;
+  line-height: 26px;
+  display: block;
+  padding-bottom: 40px;
+}
+.item p {
+  font-size: 20px;
+  font-family: Lato;
+  line-height: 29px;
+}
+.item a {
+  margin: 0 2%;
+}
+.item p a{
+  color: #18bc9c;
+}
+
+.item p a:hover{
+  text-decoration: underline;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-dribbble {
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.fa-facebook {
+  font-size: 20px;
+  padding: 10px 14px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.fa-google-plus {
+  font-size: 20px;
+  padding: 10px 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover,
+.fa-google-plus:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-dribbble:hover {
+  background: #fff;
+  color: #18bc9c;
+}
+
+.footer-second-section {
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.footer-second-section span{
+  font-size: 14px;
+  font-family: Lato;
 }
