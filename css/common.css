@@ -23,3 +23,12 @@
 .bold {
   font-weight: bold;
 }
+.bg-green {
+  background: #18bc9c;
+}
+.star-black {
+  color: #333;
+}
+.star-black::after {
+  background: #fff;
+}
