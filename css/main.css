@@ -5,12 +5,13 @@
    left: 0;
    background: #2c3e50;
    width: 100%;
-   z-index: 2;
+   z-index: 3;
  }
  .nav-container{
    margin: 0 8%;
    height: 100px;
    align-items: center;
+   transition: height .2s linear .05s;
  }
  .nav-container-min{
    margin: 0 8%;
@@ -100,22 +101,42 @@ hr {
   line-height: 46px;
 }
 .portfolio-grid {
-  /*width: 90%;*/
-  /*align-items: ce;*/
   text-align: center;
-  padding: 0 4.3%;
+  /*padding: 3% 4.3%;*/
+  width: 80%;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
 }
 
-.portfolio-grid img {
-  justify-content: space-around;
-  width: 30.3333%;
+.hover-img {
+  width: 31.3333%;
   height: 260px;
+  opacity: 1;
+  background: #18bc9c;
+  margin: 2% 0;
+  position: relative;
+}
+.hover-img img{
+  width: 100%;
+  height: 260px;
+  z-index: 1;
+}
+.hover-img img:hover {
+  opacity: 0;
+}
+.hover-img i{
+  opacity: 0.2;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 0;
+  font-size: 3.5em;
 }
 
 /*ABOUT*/
 .text-about {
   justify-content: center;
-  /*justify-content: space-around;*/
 }
 
 .text-about p {
@@ -153,7 +174,6 @@ hr {
   margin-bottom: 20px;
 }
 .form-data label {
-  /*display: none;*/
   color: #333;
   position: absolute;
   top: 0;
@@ -185,8 +205,6 @@ hr {
   background: #2c3e50;
   width: 100%;
   padding: 0 10%;
-  /*justify-content: space-around;*/
-  /*align-content: space-around;*/
 }
 .footer-first-section div {
   width: 33.33333%;
