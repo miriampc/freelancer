@@ -8,6 +8,9 @@
    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
    color: #fff;
  }
+ a {
+   text-decoration: none;
+ }
  .container {
    display: flex;
  }

@@ -13,8 +13,6 @@
    align-items: center;
  }
  .nav-container a {
-   color: #fff;
-   text-decoration: none;
    font-size: 14px;
  }
 .nav-right {
@@ -41,6 +39,11 @@ nav div:nth-child(1) a{
   padding: 7% 0;
 }
 
+#about {
+  /*text-align: center;*/
+  align-items: center;
+  padding: 7% 0;
+}
 
 .text-presentation p:first-child {
   font-size: 67px;
@@ -72,21 +75,46 @@ hr {
 }
 
 /*Portfolio*/
-#portfolio p,
-#about p {
+#portfolio span,
+#about span {
   text-align: center;
   font-size: 42px;
   line-height: 46px;
 }
 .portfolio-grid {
-  width: 90%;
+  /*width: 90%;*/
   /*align-items: ce;*/
+  text-align: center;
+  padding: 0 4.3%;
 }
 
 .portfolio-grid img {
   justify-content: space-around;
-  width: 360px;
+  width: 30.3333%;
   height: 260px;
 }
 
 /*ABOUT*/
+.text-about {
+  justify-content: center;
+  /*justify-content: space-around;*/
+}
+
+.text-about p {
+  /*font-family: Lato;*/
+  font-size: 20px;
+  text-align: left;
+  line-height: 29px;
+  width: 33.33333%;
+  padding: 1%;
+}
+.btn-download {
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 1%;
+  width: 16.3333%
+}
+.btn-download:hover{
+  color: #18bc9c;
+}
