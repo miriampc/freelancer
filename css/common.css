@@ -29,6 +29,10 @@
 .bg-green {
   background: #18bc9c;
 }
+.bg-green-links{
+  padding: 5%;
+  background: #18bc9c;
+}
 .star-black {
   color: #333;
 }
